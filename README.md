@@ -1,4 +1,4 @@
-dotfiles
-========
+Autarc's workspace
+==================
 
-config files &amp; basic setup
+These are the dotfiles and configurations to set up my basic environment (based on Ubuntu 12.04).

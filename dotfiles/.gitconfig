@@ -1,0 +1,35 @@
+[user]
+	name = Autarc
+	email = ...
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	interactive = auto
+[branch]
+	autosetupmerge = true
+[rerere]
+	enabled = true
+[merge]
+	stat = true
+[core]
+	editor = subl
+[credential]
+	helper = cache --timeout 3600
+
+
+[color "branch"]
+  current = green bold
+  local = green
+  remote = red bold
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = green bold
+  changed = yellow bold
+  untracked = red
+[color "sh"]
+  branch = yellow
