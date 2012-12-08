@@ -29,19 +29,19 @@ ZSH_THEME_GIT_PROMPT_PREFIX=""
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
 
 # Format for parse_git_dirty()
-ZSH_THEME_GIT_PROMPT_DIRTY=" %{$RED%}(*)"
+ZSH_THEME_GIT_PROMPT_DIRTY=" %{$RED%} (*)"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 # Format for git_prompt_status()
-ZSH_THEME_GIT_PROMPT_UNMERGED=" %{$RED%}unmerged"
-ZSH_THEME_GIT_PROMPT_DELETED=" %{$RED%}deleted"
-ZSH_THEME_GIT_PROMPT_RENAMED=" %{$RED%}renamed"
-ZSH_THEME_GIT_PROMPT_MODIFIED=" %{$RED%}modified"
-ZSH_THEME_GIT_PROMPT_ADDED=" %{$GREEN%}added"
-ZSH_THEME_GIT_PROMPT_UNTRACKED="  %{$WHITE%}untracked"
+ZSH_THEME_GIT_PROMPT_UNMERGED=" %{$RED%} unmerged"
+ZSH_THEME_GIT_PROMPT_DELETED=" %{$RED%} deleted"
+ZSH_THEME_GIT_PROMPT_RENAMED=" %{$RED%} renamed"
+ZSH_THEME_GIT_PROMPT_MODIFIED=" %{$RED%} modified"
+ZSH_THEME_GIT_PROMPT_ADDED=" %{$GREEN%} added"
+ZSH_THEME_GIT_PROMPT_UNTRACKED="  %{$WHITE%} untracked"
 
 # Format for git_prompt_ahead()
-ZSH_THEME_GIT_PROMPT_AHEAD=" %{$RED%}(!)"
+ZSH_THEME_GIT_PROMPT_AHEAD=" %{$RED%} (!)"
 
 # Format for git_prompt_long_sha() and git_prompt_short_sha()
 ZSH_THEME_GIT_PROMPT_SHA_BEFORE=" %{$WHITE%}[%{$MAGENTA%}"
